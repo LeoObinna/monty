@@ -60,11 +60,13 @@ char  *clean_line(char *content);
 void f_push(stack_t **head, unsigned int line_number);
 void f_pall(stack_t **head, unsigned int line_number);
 void f_pint(stack_t **head, unsigned int line_number);
-int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+int execute(char *content, stack_t **head, unsigned int line_number, FILE *file);
 void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int line_number);
 void f_swap(stack_t **head, unsigned int line_number);
 void f_add(stack_t **head, unsigned int line_number);
 void f_nop(stack_t **head, unsigned int line_number);
+void addnode(stack_t **head, int i);
+void addqueue(stack_t **head, int i);
 
 #endif
