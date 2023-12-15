@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
-  *f_sub- Subtracts the top element of the stack from the second
- top element of the stack. 
-  *@head: The head of the stack.
-  *@line_number: The line_number.
-  *Return: No return.
+ * f_sub - Subtracts the top element of the stack from the second top
+ * element of the stack.
+ * @head: The head of the stack.
+ * @line_number: The line_number.
+ * Return: No return.
  */
 void f_sub(stack_t **head, unsigned int line_number)
 {
